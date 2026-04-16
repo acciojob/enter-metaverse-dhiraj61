@@ -2,5 +2,9 @@
 let content = document.getElementById("meta");
 let btn = document.getElementById("enter");
 btn.addEventListener('click',()=>{
-	content.innerHTML = "<h1>Entered Metaverse</h1>"
+		let newElement = document.createElement("h1");
+		newElement.id = "meta";
+		newElement.innerText = "Entered Metaverse";
+
+		content.replaceWith(newElement);
 })
