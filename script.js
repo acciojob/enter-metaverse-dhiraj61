@@ -1,6 +1,6 @@
 //your JS code here. If required.
-let btn = document.getElementById("enter");
+let btn = document.getElementById("enterBtn");
 
 btn.addEventListener('click', () => {
-	document.getElementById("meta").outerHTML = "<h1 id='meta'>Entered Metaverse</h1>";
+	document.getElementById("status").outerHTML = "<h1 id='status'>Entered Metaverse</h1>";
 });
